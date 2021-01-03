@@ -44,7 +44,7 @@ const perfAnalytics = ({
   windowLoad = true,
   resourceLoad = true,
   url = 'http://localhost:3030/analytics'
-}) => ({
+} = {}) => ({
   run() {
     W.onload = () => {
       let FCPTime;

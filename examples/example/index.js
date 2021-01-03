@@ -1,5 +1,5 @@
 import perfAnalytics from '../../lib';
 import './a.css';
 
-const analytics = perfAnalytics({});
+const analytics = perfAnalytics();
 analytics.run();
