@@ -11,7 +11,7 @@ $ npm install git+https://github.com/kadirgombel/perf-analytics.git
 ## Usage
 
 ```js
-import perfAnalytics = import('perf-analytics');
+import perfAnalytics from 'perf-analytics';
 
 const saveUrl = 'http://localhost:3030/analytics';
 const perfAnalyzer = perfAnalytics({ url: saveUrl });
